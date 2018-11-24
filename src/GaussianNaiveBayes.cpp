@@ -46,13 +46,6 @@ vector<string> Load_Label(string file_name)
 
 int main() {
 
-	/*
-    vector< vector<double> > X_train = Load_State("../data/train_states.txt");
-    vector< vector<double> > X_test  = Load_State("../data/test_states.txt");
-    vector< string > Y_train  = Load_Label("../data/train_labels.txt");
-    vector< string > Y_test   = Load_Label("../data/test_labels.txt");
-    */
-
     vector< vector<double> > X_train = Load_State("data/train_states.txt");
     vector< vector<double> > X_test  = Load_State("data/test_states.txt");
     vector< string > Y_train  = Load_Label("data/train_labels.txt");
